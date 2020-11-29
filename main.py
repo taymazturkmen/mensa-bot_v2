@@ -1,6 +1,5 @@
 from sys import argv
 import requests
-import json
 import datetime
 import discord
 import os
