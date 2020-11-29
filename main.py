@@ -3,10 +3,10 @@ import requests
 import json
 import datetime
 import discord
-import sys
+import os
 
 client = discord.Client()
-TOKEN = sys.argv[1]
+TOKEN = os.getenv("BOT_TOKEN")
 
 @client.event
 async def on_ready():
