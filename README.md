@@ -35,3 +35,4 @@ export BOT_TOKEN = yourClientSecretHere
 ```
 python main.py
 ```
+default prefix is ! and bot is used with !mensa , the changing of prefix is currently not allowed but it is on my to do list.
