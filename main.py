@@ -26,7 +26,7 @@ async def on_message(message):
         location = "194"
         await print_menu(message , location)
     if message.content == ("!mensa2"):
-        location = "105"
+        location = "106"
         await print_menu(message ,location)
         
 
